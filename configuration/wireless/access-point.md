@@ -124,6 +124,12 @@ DAEMON_CONF="/etc/hostapd/hostapd.conf"
 
 ### Start it up
 
+First enable and start `dnsmasq`:
+
+```
+sudo systemctl start dnsmasq
+```
+
 Now enable and start `hostapd`:
 
 ```
